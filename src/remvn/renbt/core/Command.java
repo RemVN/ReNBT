@@ -11,6 +11,8 @@ public class Command implements CommandExecutor {
 			
 			//TODO show help
 			
+			Example.testAddTag();
+			
 		}
 		return true;
 	}

@@ -1,6 +1,6 @@
 name: ReNBT
 version: 1.0
-main: remvn.renbt.core.Main
+main: remvn.renbt.core.ReNBT
 author: RemVN
 commands:
   renbt:

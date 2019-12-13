@@ -10,10 +10,15 @@ public class ReNBT extends JavaPlugin {
 	public void onEnable() {
 		main = this;
 		initVersion();
+		initCommand();
 	}
 	
 	public void initVersion() {
 		version = Version.getServerVersion();
+	}
+	
+	public void initCommand() {
+		this.getCommand("renbt").setExecutor(new Command());
 	}
 	
 	public void onDisable() {
