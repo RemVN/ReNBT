@@ -1,10 +1,11 @@
 # ReNBT
 
 **NBT Utils for Minecraft ItemStack**
+
 Currently work with Minecraft version: 1.12.2
 
 ## **Install**
-1. Download jar file from here: [Click](https://github.com/RemVN/ReNBT/release)
+1. Download jar file from here: [releases](https://github.com/RemVN/ReNBT/tree/master/release)
 2. Drop to folder plugins
 3. Depend ReNBT on your plugin
 
