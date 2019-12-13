@@ -1,10 +1,10 @@
 # ReNBT
 
-NBT Utils for Minecraft ItemStack
+**NBT Utils for Minecraft ItemStack**
 
 Currently work with Minecraft version: 1.12.2
 
-Example code: 
+_Example code:_ 
 ```
 
 		// Example ItemStack
