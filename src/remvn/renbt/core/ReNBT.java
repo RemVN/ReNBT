@@ -1,5 +1,6 @@
 package remvn.renbt.core;
 
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class ReNBT extends JavaPlugin {
@@ -11,6 +12,12 @@ public class ReNBT extends JavaPlugin {
 		main = this;
 		initVersion();
 		initCommand();
+//		initListener();
+	}
+
+	public void initListener() {
+		PluginManager pm = this.getServer().getPluginManager();
+		pm.registerEvents(new ListenerPlayer(), this);
 	}
 	
 	public void initVersion() {
@@ -21,9 +28,9 @@ public class ReNBT extends JavaPlugin {
 		this.getCommand("renbt").setExecutor(new Command());
 	}
 	
-	public void onDisable() {
-		
-	}
+    public void onDisable(){
+
+    }
 	
 	public Version getVersion() {
 		return version;

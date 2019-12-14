@@ -2,6 +2,7 @@ package remvn.renbt.core;
 
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 public class Command implements CommandExecutor {
 
@@ -11,7 +12,8 @@ public class Command implements CommandExecutor {
 			
 			//TODO show help
 			
-			Example.testAddTag();
+			Player p = (Player) sender;
+			p.getInventory().addItem(Example.testAddTag());
 			
 		}
 		return true;

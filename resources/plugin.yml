@@ -1,9 +1,8 @@
 name: ReNBT
 version: 1.0
-main: remvn.renbt.core.ReNBT
+main: remvn.renbt.core.Main
 author: RemVN
 commands:
   renbt:
-    description: Mở cửa hàng skin, mua skin
+    description: main command
     usage: /<command>
-softdepend: []

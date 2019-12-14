@@ -5,7 +5,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class Example {
 
-	public static void testAddTag() {
+	public static ItemStack testAddTag() {
 		
 		// Example ItemStack
 		ItemStack item = new ItemStack(Material.DIAMOND);
@@ -20,6 +20,7 @@ public class Example {
 		int power = nbtAPI.getIntTag(item, "power");
 		System.out.println("Power of the diamond: " + power);
 		
+		return item;
 	}
 	
 }
