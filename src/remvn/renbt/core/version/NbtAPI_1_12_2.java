@@ -36,7 +36,7 @@ public class NbtAPI_1_12_2 implements NbtAPI {
         setTag(item, itemNMS, tag);
     }
 
-    public void addDoubleTag(org.bukkit.inventory.ItemStack item, String key, int value) {
+    public void addDoubleTag(org.bukkit.inventory.ItemStack item, String key, double value) {
         ItemStack itemNMS = CraftItemStack.asNMSCopy(item);
         NBTTagCompound tag = getTag(item);
         tag.setDouble(key, value);

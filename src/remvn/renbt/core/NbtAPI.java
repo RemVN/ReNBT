@@ -7,7 +7,7 @@ public interface NbtAPI {
 	// Add tag
     void addStringTag(ItemStack item, String key, String value);
     void addIntTag(org.bukkit.inventory.ItemStack item, String key, int value);
-    void addDoubleTag(org.bukkit.inventory.ItemStack item, String key, int value);
+    void addDoubleTag(org.bukkit.inventory.ItemStack item, String key, double value);
     void addBooleanTag(org.bukkit.inventory.ItemStack item, String key, boolean value);
     
     // Get tag
